@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF23CA411C8D6BB100672D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23CA401C8D6BB100672D46 /* AppDelegate.swift */; };
+		AF23CA431C8D6BB100672D46 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF23CA421C8D6BB100672D46 /* art.scnassets */; };
+		AF23CA451C8D6BB100672D46 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23CA441C8D6BB100672D46 /* GameViewController.swift */; };
+		AF23CA481C8D6BB100672D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF23CA461C8D6BB100672D46 /* Main.storyboard */; };
+		AF23CA4A1C8D6BB100672D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF23CA491C8D6BB100672D46 /* Assets.xcassets */; };
+		AF23CA4D1C8D6BB100672D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF23CA4B1C8D6BB100672D46 /* LaunchScreen.storyboard */; };
+		AF23CA581C8D6BB200672D46 /* MazeTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23CA571C8D6BB200672D46 /* MazeTriviaTests.swift */; };
+		AF23CA631C8D6BB200672D46 /* MazeTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23CA621C8D6BB200672D46 /* MazeTriviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF23CA541C8D6BB200672D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF23CA351C8D6BB100672D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23CA3C1C8D6BB100672D46;
+			remoteInfo = MazeTrivia;
+		};
+		AF23CA5F1C8D6BB200672D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF23CA351C8D6BB100672D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23CA3C1C8D6BB100672D46;
+			remoteInfo = MazeTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF23CA3D1C8D6BB100672D46 /* MazeTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23CA401C8D6BB100672D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF23CA421C8D6BB100672D46 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF23CA441C8D6BB100672D46 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF23CA471C8D6BB100672D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF23CA491C8D6BB100672D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF23CA4C1C8D6BB100672D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF23CA4E1C8D6BB100672D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23CA531C8D6BB200672D46 /* MazeTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23CA571C8D6BB200672D46 /* MazeTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeTriviaTests.swift; sourceTree = "<group>"; };
+		AF23CA591C8D6BB200672D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23CA5E1C8D6BB200672D46 /* MazeTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23CA621C8D6BB200672D46 /* MazeTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeTriviaUITests.swift; sourceTree = "<group>"; };
+		AF23CA641C8D6BB200672D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF23CA3A1C8D6BB100672D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA501C8D6BB200672D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA5B1C8D6BB200672D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF23CA341C8D6BB100672D46 = {
+			isa = PBXGroup;
+			children = (
+				AF23CA3F1C8D6BB100672D46 /* MazeTrivia */,
+				AF23CA561C8D6BB200672D46 /* MazeTriviaTests */,
+				AF23CA611C8D6BB200672D46 /* MazeTriviaUITests */,
+				AF23CA3E1C8D6BB100672D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF23CA3E1C8D6BB100672D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CA3D1C8D6BB100672D46 /* MazeTrivia.app */,
+				AF23CA531C8D6BB200672D46 /* MazeTriviaTests.xctest */,
+				AF23CA5E1C8D6BB200672D46 /* MazeTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF23CA3F1C8D6BB100672D46 /* MazeTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CA401C8D6BB100672D46 /* AppDelegate.swift */,
+				AF23CA421C8D6BB100672D46 /* art.scnassets */,
+				AF23CA441C8D6BB100672D46 /* GameViewController.swift */,
+				AF23CA461C8D6BB100672D46 /* Main.storyboard */,
+				AF23CA491C8D6BB100672D46 /* Assets.xcassets */,
+				AF23CA4B1C8D6BB100672D46 /* LaunchScreen.storyboard */,
+				AF23CA4E1C8D6BB100672D46 /* Info.plist */,
+			);
+			path = MazeTrivia;
+			sourceTree = "<group>";
+		};
+		AF23CA561C8D6BB200672D46 /* MazeTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CA571C8D6BB200672D46 /* MazeTriviaTests.swift */,
+				AF23CA591C8D6BB200672D46 /* Info.plist */,
+			);
+			path = MazeTriviaTests;
+			sourceTree = "<group>";
+		};
+		AF23CA611C8D6BB200672D46 /* MazeTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CA621C8D6BB200672D46 /* MazeTriviaUITests.swift */,
+				AF23CA641C8D6BB200672D46 /* Info.plist */,
+			);
+			path = MazeTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF23CA3C1C8D6BB100672D46 /* MazeTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23CA671C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTrivia" */;
+			buildPhases = (
+				AF23CA391C8D6BB100672D46 /* Sources */,
+				AF23CA3A1C8D6BB100672D46 /* Frameworks */,
+				AF23CA3B1C8D6BB100672D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MazeTrivia;
+			productName = MazeTrivia;
+			productReference = AF23CA3D1C8D6BB100672D46 /* MazeTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF23CA521C8D6BB200672D46 /* MazeTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23CA6A1C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTriviaTests" */;
+			buildPhases = (
+				AF23CA4F1C8D6BB200672D46 /* Sources */,
+				AF23CA501C8D6BB200672D46 /* Frameworks */,
+				AF23CA511C8D6BB200672D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23CA551C8D6BB200672D46 /* PBXTargetDependency */,
+			);
+			name = MazeTriviaTests;
+			productName = MazeTriviaTests;
+			productReference = AF23CA531C8D6BB200672D46 /* MazeTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF23CA5D1C8D6BB200672D46 /* MazeTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23CA6D1C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTriviaUITests" */;
+			buildPhases = (
+				AF23CA5A1C8D6BB200672D46 /* Sources */,
+				AF23CA5B1C8D6BB200672D46 /* Frameworks */,
+				AF23CA5C1C8D6BB200672D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23CA601C8D6BB200672D46 /* PBXTargetDependency */,
+			);
+			name = MazeTriviaUITests;
+			productName = MazeTriviaUITests;
+			productReference = AF23CA5E1C8D6BB200672D46 /* MazeTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF23CA351C8D6BB100672D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daniel Mathews";
+				TargetAttributes = {
+					AF23CA3C1C8D6BB100672D46 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AF23CA521C8D6BB200672D46 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AF23CA3C1C8D6BB100672D46;
+					};
+					AF23CA5D1C8D6BB200672D46 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AF23CA3C1C8D6BB100672D46;
+					};
+				};
+			};
+			buildConfigurationList = AF23CA381C8D6BB100672D46 /* Build configuration list for PBXProject "MazeTrivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF23CA341C8D6BB100672D46;
+			productRefGroup = AF23CA3E1C8D6BB100672D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF23CA3C1C8D6BB100672D46 /* MazeTrivia */,
+				AF23CA521C8D6BB200672D46 /* MazeTriviaTests */,
+				AF23CA5D1C8D6BB200672D46 /* MazeTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF23CA3B1C8D6BB100672D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CA431C8D6BB100672D46 /* art.scnassets in Resources */,
+				AF23CA4D1C8D6BB100672D46 /* LaunchScreen.storyboard in Resources */,
+				AF23CA4A1C8D6BB100672D46 /* Assets.xcassets in Resources */,
+				AF23CA481C8D6BB100672D46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA511C8D6BB200672D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA5C1C8D6BB200672D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF23CA391C8D6BB100672D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CA451C8D6BB100672D46 /* GameViewController.swift in Sources */,
+				AF23CA411C8D6BB100672D46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA4F1C8D6BB200672D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CA581C8D6BB200672D46 /* MazeTriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF23CA5A1C8D6BB200672D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CA631C8D6BB200672D46 /* MazeTriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF23CA551C8D6BB200672D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23CA3C1C8D6BB100672D46 /* MazeTrivia */;
+			targetProxy = AF23CA541C8D6BB200672D46 /* PBXContainerItemProxy */;
+		};
+		AF23CA601C8D6BB200672D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23CA3C1C8D6BB100672D46 /* MazeTrivia */;
+			targetProxy = AF23CA5F1C8D6BB200672D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF23CA461C8D6BB100672D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF23CA471C8D6BB100672D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF23CA4B1C8D6BB100672D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF23CA4C1C8D6BB100672D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF23CA651C8D6BB200672D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF23CA661C8D6BB200672D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF23CA681C8D6BB200672D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MazeTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF23CA691C8D6BB200672D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MazeTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF23CA6B1C8D6BB200672D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MazeTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazeTrivia.app/MazeTrivia";
+			};
+			name = Debug;
+		};
+		AF23CA6C1C8D6BB200672D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MazeTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazeTrivia.app/MazeTrivia";
+			};
+			name = Release;
+		};
+		AF23CA6E1C8D6BB200672D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MazeTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MazeTrivia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF23CA6F1C8D6BB200672D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MazeTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.MazeTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MazeTrivia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF23CA381C8D6BB100672D46 /* Build configuration list for PBXProject "MazeTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CA651C8D6BB200672D46 /* Debug */,
+				AF23CA661C8D6BB200672D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23CA671C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CA681C8D6BB200672D46 /* Debug */,
+				AF23CA691C8D6BB200672D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF23CA6A1C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CA6B1C8D6BB200672D46 /* Debug */,
+				AF23CA6C1C8D6BB200672D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF23CA6D1C8D6BB200672D46 /* Build configuration list for PBXNativeTarget "MazeTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CA6E1C8D6BB200672D46 /* Debug */,
+				AF23CA6F1C8D6BB200672D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF23CA351C8D6BB100672D46 /* Project object */;
+}
