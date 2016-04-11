@@ -4,3 +4,7 @@ This is a trivia game where every correct answer leads the user closer to finish
 The plan for the game is to a have a 2d minimap with possible a first person 3d perspective.
 
 The questions are intended to be included in the build with a plist file, but that might change.
+
+Still desiging the UI.
+
+The Maze generation models are complete based on what is currently planned for the project.
